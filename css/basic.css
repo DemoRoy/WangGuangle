@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	font-size: 625%;
+	color: #333;
+}
+
+body {
+	height: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+
+.wrapper {
+	height: 100%;
+	font-size: .16rem;
+}
+
+h1, h2, h3, p, ul, figure {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.bg {
+	background: url(../img/pc-bg1.jpg) no-repeat center center;
+	background-size: cover;
+	transition: all 2s;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+.scro::-webkit-scrollbar {
+	display: none;
+}
+
+.sm-visiable {
+	display: none;
+}
+
+.none {
+	display: none;
+}
+
+/* 头部 */
+
+header {
+	font-size: .24rem;
+	padding: .4rem 0 0 6%; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%; /* 修复fixed引起的宽度变化 */
+}
+
+header nav li {
+	float: left;
+	text-align: center;
+	margin-right: 2.3%;
+}
+
+header nav li a {
+	color: #aaa;
+}
+
+header nav li a:hover {
+	color: #333;
+}
+
+/* 底部 */
+
+footer {
+	position: absolute;
+	left: 6%;
+	bottom: 0;
+	padding-bottom: .4rem;
+}
+
+/* 版权声明  */
+
+.coypright {
+	color: #fff;
+	font-size: .14rem;
+}

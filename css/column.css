@@ -1,0 +1,506 @@
+@charset "utf-8";
+
+/* PC && Pad */
+
+/*======work======*/
+
+.art {
+	height: 100%;
+	position: relative;
+}
+
+.art .position {
+	position: absolute;
+	left: 0;
+	top: 37.5%;
+	padding-left: 6%;
+	width: 100%;
+}
+
+/* Terrazzo */
+
+/* 按钮 */
+
+.navhead .btn {
+	position: absolute;
+	left: 6%;
+	top: .4rem;
+	cursor: pointer;
+}
+
+.navhead .btn span {
+	display: block;
+	width: .36rem;
+	border-top: .02rem solid #333;
+	padding: .05rem 0;
+}
+
+/* 导航条 */
+
+.navhead nav {
+	position: relative;
+	left: 1rem;
+	display: none;
+}
+
+
+/* 公共部分 */
+
+.content {
+	width: 100%;
+	height: 100%;
+	padding: 1rem 0 0 6%;
+}
+
+.content .scro {
+	height: 100%;
+	overflow-y: auto;
+}
+
+.content .left {
+	width: 44%;
+}
+
+.content .right{
+	width: 50%;
+}
+
+/* End 公共部分 */
+
+/*作品内容*/
+
+.terrazzo {
+	padding-left: 0;
+}
+
+.content .head {
+	font-size: .2rem;
+	margin-bottom: .2rem;
+}
+
+.head ul {
+	text-align: center;
+}
+
+.head ul li {
+	display: inline-block;
+	margin-right: 2.6%;
+}
+
+.head ul li:last-child {
+	margin-right: 0;
+}
+
+.head ul li a {
+	color: #666;
+}
+
+.head ul li a:hover {
+	color: #000;
+}
+
+.content .main {
+	width: 88%;
+	margin: 0 auto;
+	font-size: .16rem;
+}
+
+.main .info {
+	width: 21.5%;
+	float: left;
+}
+
+.main .info h2 {
+	font-size: .2rem;
+	font-weight: 500;
+	color: #333;
+	margin-bottom: .3rem;
+}
+
+.main .info span {
+	display: block;
+	color: #333;
+	line-height: 1.5;
+}
+
+.main .info p {
+	font-size: .2rem;
+	font-weight: 500;
+	color: #666;
+	margin-top: .3rem;
+}
+
+.main .works {
+	width: 57.1%;
+	float: left;
+	text-align: center;
+}
+
+.works ul {
+	width: 50%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.works li {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+.works li:nth-child(1) {
+	display: block;
+}
+
+.works li:nth-child(2) {
+	display: none;
+}
+
+.works li:nth-child(3) {
+	display: none;
+}
+
+.content .foot {
+	font-size: .16rem;
+	color: #333;
+	margin-top: .4rem;
+	width: 100%;
+	text-align: center;
+}
+
+.foot span {
+	margin-right: 2.6%;
+	cursor: pointer;
+}
+
+.foot span:hover {
+	color: #000;
+}
+
+.foot span:last-child {
+	margin-right: 0;
+}
+
+/*======Exhibition======*/
+
+.exhibition {
+	padding-left: 6%;
+}
+
+.exhibition .scro {
+	float: left;
+}
+
+.exhibition .left h2 {
+	font-size: .2rem;
+	font-weight: 500;
+	padding-bottom: .2rem;
+}
+
+.exhibition .left hr {
+	width: 90%;
+	margin: .6rem 0;
+}
+
+.exhibition .left ul li {
+	line-height: 2;
+}
+
+.exhibition .left a {
+	color: #666;
+}
+
+.exhibition .left a:hover {
+	color: #000;
+} 
+
+.exhibition .right h1 {
+	font-weight: normal;
+	font-size: .2rem;
+	color: #999;
+	padding-bottom: .2rem;
+}
+
+.exhibition .right figure {
+	width: 94%;
+}
+
+.exhibition .right p {
+	margin-top: .2rem;
+	line-height: 1.5;
+}
+
+/*======Text======*/
+
+.text .scro {
+	float: left;
+}
+
+.text .left ul {
+	width: 100%;
+	height: 100%;
+}
+
+.text .left li {
+	width: 50%;
+	float: left;
+	padding-right: 3%;
+	padding-bottom: .1rem;
+	margin-bottom: .2rem;
+	cursor: pointer;
+	border-bottom: 1px solid transparent; 
+}
+
+.text .left p {
+	color: #666;
+	padding-bottom: .2rem;
+}
+
+.text .left h3 {
+	font-weight: 700;
+}
+
+.text .left li:hover {
+	border-bottom-color: #ccc;
+}
+
+.text .right p {
+	margin-bottom: .2rem;
+	line-height: 1.5;
+}
+
+/*======catalogues======*/
+
+.catalogues .srco {
+	width: 100%;
+}
+
+.catalogues figure {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	margin-bottom: .2rem;
+	cursor: pointer;
+}
+
+.catalogues figure .img {
+	padding-bottom: 80%;
+	width: 100%;
+	height: 0;
+	text-align: center;
+	position: relative; /* 底部对齐参考点 */
+}
+
+.catalogues figure img {
+	width: 50%;
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+}
+
+.catalogues figure figcaption {
+	padding-top: .2rem;
+	color: #aaa;
+	line-height: 1.5;
+	text-align: left;
+	padding-left: 25%;
+}
+
+.catalogues figure:hover figcaption {
+	color: #333;
+}
+
+.catalogues figcaption h2 {
+	font-weight: 500;
+	font-size: .16rem;
+}
+
+/*======Artist======*/
+
+.artist .left p.info {
+	line-height: 2;
+	margin-bottom: .4rem;
+}
+
+.artist .left p {
+	margin-bottom: .2rem;
+}
+
+/*======Contact======*/
+
+.contact {
+	padding-top: 20%;
+}
+
+.address {
+	height: 100%;
+	float: left;
+}
+
+.address img {
+	width: 30%;
+	margin-bottom: .2rem;
+}
+
+.address address {
+	width: 80%;
+	font-style: normal;
+}
+
+.address address li {
+	padding: .1rem 0;
+}
+
+.pace {
+	width: 40%;
+}
+
+.commune {
+	width: 50%;
+}
+
+
+/* 媒体查询 */
+
+/* 超小屏幕 （手机， 小于 768px） */
+@media (max-width: 767px) {
+
+	body {
+		overflow: auto;
+	}
+
+	.mbtn {
+		position: absolute;
+		left: 10%;
+		top: .4rem;
+		cursor: pointer;
+	}
+
+	.mbtn span {
+		display: block;
+		width: .36rem;
+		border-top: .02rem solid #333;
+		padding: .05rem 0;
+	}
+
+	.terrazzo {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	
+	.head ul li {
+		float: left;
+		width: 50%;
+		margin-right: 0;
+		margin-bottom: 8%;
+	}
+
+	.head ul li:last-child {
+		display: none;
+	}
+
+	.content {
+		padding-left: 0;
+		padding-top: 30%;
+	}
+
+	.content .main {
+		width: 98%;
+	}
+	
+	.main .works {
+		width: 100%;
+		float: none;
+	}
+
+	.works .mtitle {
+		font-size: .24rem;
+		color: #333;
+		margin-top: .2rem;
+	}
+
+	.works .myear {
+		font-size: .16rem;
+		color: #333;
+		margin-bottom: .2rem;
+	}
+
+	.works ul {
+		width: 80%;
+	}
+
+	.works li:nth-child(2) {
+		display: block;
+	}
+
+	.works li:nth-child(3) {
+		display: block;
+	}
+
+	.content .scro {
+		width: 100%;
+		float: none;
+	}
+
+	.exhibition .right {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.exhibition .right .article {
+		margin-bottom: .4rem;
+	}
+
+	.text .left li {
+		width: 80%;
+		margin-left: 10%;
+		border-bottom-color: #ccc;
+	}
+
+	.text .left li .info {
+		margin-top: .2rem;
+	}
+
+	.catalogues figure {
+		width: 100%;
+		float: none;
+	}
+
+	.artist .left p {
+		padding: 0 10%;
+	}
+	
+	.address {
+		height: auto;
+		float: none;
+		width: 80%;
+		margin: 0 auto .4rem;
+	}
+
+	.address img {
+		width: 40%;
+		margin-bottom: .2rem;
+	}
+
+	.address address {
+		width: 80%;
+		font-style: normal;
+	}
+
+	.address address li {
+		padding: .1rem 0;
+	}
+
+	.sm-hidden {
+		display: none;
+	}
+
+	.sm-visiable {
+		display: block;
+	}
+
+}

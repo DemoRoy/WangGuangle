@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+/* PC && Pad */
+
+.wrapper {
+	position: relative; /* 设置背景图片定位的参考点 */
+	overflow: hidden; /* 裁掉图片超出的部分 */
+}
+
+header nav li a {
+	color: #fff;
+}
+
+/*艺术家信息*/
+
+.art {
+	height: 100%;
+	position: relative;
+}
+
+.art .position {
+	position: absolute;
+	left: 0;
+	top: 37.5%;
+	padding-left: 6%;
+	width: 100%;
+}
+
+/* 艺术家信息 */
+
+.art .artname {
+	font-size: .48rem;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1px;
+	position: absolute;
+	left: 6%;
+	top: 0;
+}
+
+/* 艺术家作品 */
+
+.art .artwork {
+	font-size: .36rem;
+	position: absolute;
+	width: 100%;
+	margin-left: -6%; /* 修复父容器左距离，确保标签居中 */
+	text-align: center;
+}
+
+.art .artwork li {
+	font-size: .24rem;
+	display: inline-block;
+	margin-right: 6%; 
+}
+
+.art .artwork li:last-child {
+	margin-right: 0; /* 修复最后一个标签右边距，确保标签居中 */
+}
+
+.artwork li a {
+	color: #fff;
+}
+
+.artwork li a:hover {
+	color: #333;
+		    transition: color 1s;
+	   -moz-transition: color 1s;	
+	-webkit-transition: color 1s;	
+		 -o-transition: color 1s;
+}
+
+/* 底部 */
+
+footer {
+	position: absolute;
+	left: 6%;
+	bottom: 0;
+	padding-bottom: .4rem;
+}
+
+/* 版权声明  */
+
+.coypright {
+	color: #fff;
+	font-size: .14rem;
+}
+
+/* End PC && Pad */
+
+/* Mobile */
+
+.mhead {
+	padding: 10% 0 0 10% ;
+}
+
+.martname {
+	font-size: .48rem;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.mnav {
+	padding: 10% 0 0 10%;
+}
+
+.mnav li {
+	margin-bottom: 10%;
+	letter-spacing: .01rem;
+}
+
+.mnav li a {
+	font-size: .28rem;
+	color: #fff;
+}
+
+
+/* End Mobile */
+
+
+
+/* 媒体查询 */
+
+/* 超小屏幕 （手机， 小于 768px） */
+@media (max-width: 767px) {
+
+	.bg {
+		background: url(../img/mobile-bg1.jpg) no-repeat center center;
+	    background-size: cover;
+	}
+
+	.pc {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+}
+
+
+/* 小屏幕 （平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕 （桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+
+}
+
+/* 大屏幕 （桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+	
+}
+
+
+
+
