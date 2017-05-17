@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 
 /* PC && Pad */
@@ -106,7 +107,7 @@ footer {
 }
 
 .mnav li {
-	margin-bottom: 10%;
+	margin-bottom: 6%;
 	letter-spacing: .01rem;
 }
 
