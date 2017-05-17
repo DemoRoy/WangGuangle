@@ -453,6 +453,7 @@
 
 	.exhibition .right .article {
 		margin-bottom: .4rem;
+		display: block!important;
 	}
 
 	.text .left li {
@@ -503,4 +504,11 @@
 		display: block;
 	}
 
+}
+
+/* pc && pad */
+@media (min-width: 769px) {
+	.text .left li .info {
+		display: none!important;
+	}
 }

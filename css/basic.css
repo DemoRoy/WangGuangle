@@ -60,6 +60,10 @@ img {
 	display: none;
 }
 
+.md-hidden {
+	display: none;
+}
+
 .none {
 	display: none;
 }
